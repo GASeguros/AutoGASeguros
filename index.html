@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="./indesx.js" defer></script>
+    <title>Document</title>
+</head>
+<body class=" text-dark bg-opacity-10 w-100 bg-info bg-gradient">
+    <div class="text-light fundoAzul" style="background: linear-gradient(225deg,rgb(30,79,108) 0%,rgb(14,28,52) 100%);">
+        <header class="" >
+            <nav class="navbar bg-body-tertiary bg-opacity-100" data-bs-theme="dark"  >
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assents/Logo-removebg-preview.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+                    GA Seguros
+                </a>
+                </div>
+            </nav>
+        </header>
+        <div class="d-flex justify-content-center container">
+            <div class=" d-flex p-4 w-100 align-items-center geral" style="margin-top: 16vh;">
+
+                <!-- FORM -->
+                <div class="container d-flex flex-column p-0 formulario" >
+                    <div class="d-flex flex-column">
+                        <h1>Faça conosco uma cotação para o seu Auto</h1>
+                        <h3>É fácil, de graça e leva só 2 minutinhos</h3>
+                        <h6>Trabalhamos com todas as operadoras de seguro</h6>
+                    </div>
+                
+    
+                    <div>
+                        <form class="row g-3 needs-validation" novalidate>
+                            <div class="col-md-4">
+                            <label for="validationCustom01" class="form-label">Primeiro Nome</label>
+                            <input type="text" class="form-control" id="Nome" value="" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            </div>
+                            <div class="col-md-4">
+                            <label for="validationCustom02" class="form-label">Celular</label>
+                            <input type="text" class="form-control" id="Celular" value="" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            </div>
+                            <div class="col-md-4">
+                            <label for="validationCustomUsername" class="form-label">Placa do Auto</label>
+                            <div class="input-group has-validation">
+                                <input type="text" class="form-control" id="Placa" aria-describedby="inputGroupPrepend" required>
+                                <div class="invalid-feedback">
+                                Please choose a username.
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-md-6">
+                            <label for="validationCustom03" class="form-label">Email</label>
+                            <input type="text" class="form-control" id="Email" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid city.
+                            </div>
+                            </div>
+                            <div class="col-md-3">
+                            <label for="validationCustom04" class="form-label">Estado</label>
+                            <select class="form-select" id="validationCustom04" required>
+                                <option selected disabled value="">Escolha...</option>
+                                <option>SP</option>
+                                <option>RJ</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+                            </div>
+                            <div class="col-md-3">
+                            <label for="validationCustom05" class="form-label">CEP</label>
+                            <input type="text" class="form-control" id="CEP" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid zip.
+                            </div>
+                            </div>
+                            <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                Aceito os <a href="./termos.html" target="_blank" rel="noopener noreferrer"><b>termos</b></a> e condições
+                                </label>
+                                <div class="invalid-feedback">
+                                You must agree before submitting.
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-12">
+                            <button class="btn btn-primary botao" type="button">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- FORM END -->
+
+                <div class="container">
+                    <img class="img-fluid" src="assents/85ff9b4b9d27cb9209e8854390bbb9b3-removebg-preview.png" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- CARD -->
+    <div class="notifications-container">
+        <div class="success">
+          <div class="flex">
+            <div class="flex-shrink-0">
+              
+              <svg class="succes-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+            </div>
+            <div class="success-prompt-wrap">
+              <p class="success-prompt-heading">Pedido completo!
+              </p><div class="success-prompt-prompt">
+                <p>Seus dados foram enviados para nosso especialista entrar em cotato. Sinta-se a vontade para nos mandar mensagem no Whatsapp!</p>
+              </div>
+                <!-- <div class="success-button-container">
+                  <button type="button" class="success-button-main">View status</button>
+                  <button type="button" class="success-button-secondary">Dismiss</button>
+                </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- CARD END -->
+
+    <!-- MID -->
+    <img class="enfeite" src="./assents/Enfeite.svg" style="position: relative; bottom: 100px;" alt="img">
+
+    <div  class="container d-flex mid align-items-center" >
+        <div class="container">
+            <img class="img-fluid" src="./assents/2507732-carro-veiculo-cor-isolado-icone-gratis-vetor-removebg-preview.png" alt="image">
+        </div>
+        <div class="texto ">
+            <h1 class="m-3">App Porto</h1>
+            <h5 class="para">Com ele, você controla os gastos, altera o limite, consulta a fatura, abastece com desconto, resgata pontos e muito mais. Use quando, onde e sempre que quiser.
+                <br> Com ele, você controla os  gastos, altera o limite, consulta a fatura, abastece com desconto, resgata pontos e muito mais. Use quando, onde e sempre que quiser.
+            </h5>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h5 class="texto fim ">No App Porto, você pode gerar um cartão virtual para fazer compras online com mais segurança. Use em aplicativos de mobilidade, comida, streaming de vídeo, música, entregas etc.</h5>
+    </div>
+
+    <!-- MID END -->
+
+    <!-- INFO -->
+    
+    <!-- INFO END -->
+
+
+    <!-- CARD -->
+    <div class="d-flex m-5 flex-row flex-wrap justify-content-evenly">
+
+          <div class="card  rounded-4 text-start mb-3 adesivo" style="width: 13rem;">
+            <div class="card-body">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-car-front" viewBox="0 0 16 16">
+                    <path d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17 1.247 0 2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276Z"/>
+                    <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.807.807 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155 1.806 0 4.037-.084 5.592-.155A1.479 1.479 0 0 0 15 9.611v-.413c0-.099-.01-.197-.03-.294l-.335-1.68a.807.807 0 0 0-.43-.563 1.807 1.807 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3H4.82Z"/>
+                </svg>
+              <h5 class="card-title pt-1">Colisão</h5>
+              <p class="card-text">Conhecida como “batida”, é o choque entre um veículo e outro, ou contra um poste, por exemplo.</p>
+            </div>
+          </div>
+
+          <div class="card  rounded-4 text-start mb-3 adesivo" style="width: 13rem;">
+            <div class="card-body">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-life-preserver" viewBox="0 0 16 16">
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm6.43-5.228a7.025 7.025 0 0 1-3.658 3.658l-1.115-2.788a4.015 4.015 0 0 0 1.985-1.985l2.788 1.115zM5.228 14.43a7.025 7.025 0 0 1-3.658-3.658l2.788-1.115a4.015 4.015 0 0 0 1.985 1.985L5.228 14.43zm9.202-9.202-2.788 1.115a4.015 4.015 0 0 0-1.985-1.985l1.115-2.788a7.025 7.025 0 0 1 3.658 3.658zm-8.087-.87a4.015 4.015 0 0 0-1.985 1.985L1.57 5.228A7.025 7.025 0 0 1 5.228 1.57l1.115 2.788zM8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                </svg>
+              <h5 class="card-title pt-1">Roubo e furto</h5>
+              <p class="card-text">Roubo é quando o condutor do veículo sofre uma violência, mesmo que uma ameaça. Já o furto é para casos em que o carro é levado sem que o dono veja.</p>
+            </div>
+          </div>
+
+          <div class="card  rounded-4 text-start mb-3 adesivo" style="width: 13rem;">
+            <div class="card-body">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-fire" viewBox="0 0 16 16">
+                    <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z"/>
+                </svg>
+              <h5 class="card-title pt-1">Incêndio</h5>
+              <p class="card-text">Fogo em qualquer uma das partes do seu veículo, seja interna ou externa.</p>
+            </div>
+          </div>
+
+          <div class="card  rounded-4 text-start mb-3 adesivo" style="width: 13rem;">
+            <div class="card-body">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                    <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                </svg>
+              <h5 class="card-title pt-1">Vidro, retrovisor ou farol</h5>
+              <p class="card-text">Troca ou reparo em caso de vidros trincados ou quebrados.</p>
+            </div>
+          </div>
+
+          <div class="card  rounded-4 text-start mb-3 adesivo" style="width: 13rem;">
+            <div class="card-body">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-cloud-lightning-rain" viewBox="0 0 16 16">
+                    <path d="M2.658 11.026a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316zm9.5 0a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316zm-7.5 1.5a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316zm9.5 0a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316zm-.753-8.499a5.001 5.001 0 0 0-9.499-1.004A3.5 3.5 0 1 0 3.5 10H13a3 3 0 0 0 .405-5.973zM8.5 1a4 4 0 0 1 3.976 3.555.5.5 0 0 0 .5.445H13a2 2 0 0 1 0 4H3.5a2.5 2.5 0 1 1 .605-4.926.5.5 0 0 0 .596-.329A4.002 4.002 0 0 1 8.5 1zM7.053 11.276A.5.5 0 0 1 7.5 11h1a.5.5 0 0 1 .474.658l-.28.842H9.5a.5.5 0 0 1 .39.812l-2 2.5a.5.5 0 0 1-.875-.433L7.36 14H6.5a.5.5 0 0 1-.447-.724l1-2z"/>
+                  </svg>
+              <h5 class="card-title pt-1">Enchente ou alagamento</h5>
+              <p class="card-text">Chuva em excesso e subida de maré são situações em que pode acontecer enchente ou alagamento envolvendo veículos.</p>
+            </div>
+          </div>
+
+    </div>
+    <!-- CARD-END -->
+
+
+    <!-- FAQ -->
+    <div class="p-5">
+        <h3 class="mt-5">FAQ</h3>
+    
+        <div class="d-flex flex-column justify-content-between align-items-baseline">
+            <div data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                <div class="d-inline-flex gap-1">
+                    <div class="h5" >
+                        Qual é a garantia de reparos em uma oficina referenciada?
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                </svg>
+            </div>
+            <div class="collapse" id="collapseExample1">
+                <div class=" card-body p-1">
+                    <p>Mão de obra: 12 meses.</p>
+                    <p>Peças: 90 dias, de acordo com o Código de Defesa do Consumidor.</p>
+                </div>
+            </div>  
+        </div>
+        <hr>
+        <div class="d-flex flex-column justify-content-between align-items-baseline">
+            <div data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                <div class="d-inline-flex gap-1">
+                    <div class="h5" >
+                        Quais os locais de abrangência do Seguro Auto?
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                </svg>
+            </div>
+            <div class="collapse" id="collapseExample2">
+                <div class=" card-body p-1">
+                    <p>Você pode acionar os serviços de sinistro e os benefícios em qualquer cidade e estado brasileiro que possua o atendimento. Caso você viaje com seu carro para países do Mercosul, a Porto Seguro oferece o seguro Carta Verde, que é obrigatório nesses locais.</p>
+                    
+                </div>
+            </div>  
+        </div>
+        <hr>
+        <div class="d-flex flex-column justify-content-between align-items-baseline">
+            <div data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                <div class="d-inline-flex gap-1">
+                    <div class="h5" >
+                        Quais fatores interferem no valor do meu Porto Seguro Auto?
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                </svg>
+            </div>
+            <div class="collapse" id="collapseExample3">
+                <div class=" card-body p-1">
+                    <p>Para fazer o cálculo do seguro para o seu carro, os principais fatores que determinam o preço são: marca, modelo e ano do veículo; em quais áreas e cidades o carro circula e fica estacionado a maior parte do tempo; quem é e qual a idade do condutor principal. As diferentes cláusulas e coberturas a serem contratadas, bem como o valor da franquia, também podem alterar o valor final do seguro.</p>
+                </div>
+            </div>  
+        </div>
+        <hr>
+    </div>
+
+    <!-- FAQ END -->
+    
+    <!-- CONTATO -->
+
+    <a target="_blank" href="https://wa.me/5511941715187?text=Quero%20realizar%20uma%20cota%C3%A7%C3%A3o%20de%20Auto%20com%20voc%C3%AAs!!!">
+        <svg class="whatsapp" xmlns="http://www.w3.org/2000/svg" width="59" height="59" viewBox="0 0 39 39"><path fill="#00E676" d="M10.7 32.8l.6.3c2.5 1.5 5.3 2.2 8.1 2.2 8.8 0 16-7.2 16-16 0-4.2-1.7-8.3-4.7-11.3s-7-4.7-11.3-4.7c-8.8 0-16 7.2-15.9 16.1 0 3 .9 5.9 2.4 8.4l.4.6-1.6 5.9 6-1.5z"></path><path fill="#FFF" d="M32.4 6.4C29 2.9 24.3 1 19.5 1 9.3 1 1.1 9.3 1.2 19.4c0 3.2.9 6.3 2.4 9.1L1 38l9.7-2.5c2.7 1.5 5.7 2.2 8.7 2.2 10.1 0 18.3-8.3 18.3-18.4 0-4.9-1.9-9.5-5.3-12.9zM19.5 34.6c-2.7 0-5.4-.7-7.7-2.1l-.6-.3-5.8 1.5L6.9 28l-.4-.6c-4.4-7.1-2.3-16.5 4.9-20.9s16.5-2.3 20.9 4.9 2.3 16.5-4.9 20.9c-2.3 1.5-5.1 2.3-7.9 2.3zm8.8-11.1l-1.1-.5s-1.6-.7-2.6-1.2c-.1 0-.2-.1-.3-.1-.3 0-.5.1-.7.2 0 0-.1.1-1.5 1.7-.1.2-.3.3-.5.3h-.1c-.1 0-.3-.1-.4-.2l-.5-.2c-1.1-.5-2.1-1.1-2.9-1.9-.2-.2-.5-.4-.7-.6-.7-.7-1.4-1.5-1.9-2.4l-.1-.2c-.1-.1-.1-.2-.2-.4 0-.2 0-.4.1-.5 0 0 .4-.5.7-.8.2-.2.3-.5.5-.7.2-.3.3-.7.2-1-.1-.5-1.3-3.2-1.6-3.8-.2-.3-.4-.4-.7-.5h-1.1c-.2 0-.4.1-.6.1l-.1.1c-.2.1-.4.3-.6.4-.2.2-.3.4-.5.6-.7.9-1.1 2-1.1 3.1 0 .8.2 1.6.5 2.3l.1.3c.9 1.9 2.1 3.6 3.7 5.1l.4.4c.3.3.6.5.8.8 2.1 1.8 4.5 3.1 7.2 3.8.3.1.7.1 1 .2h1c.5 0 1.1-.2 1.5-.4.3-.2.5-.2.7-.4l.2-.2c.2-.2.4-.3.6-.5s.4-.4.5-.6c.2-.4.3-.9.4-1.4v-.7s-.1-.1-.3-.2z"></path></svg>
+    </a>
+
+    <!-- CONTATO END -->
+
+    <!-- FOOTER -->
+<div class="footer bg-dark">
+    a
+</div>
+    <!-- FOOTER END -->
+
+    <!-- LOADER -->
+    <div class="loader">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <div class="bar4"></div>
+        <div class="bar5"></div>
+        <div class="bar6"></div>
+        <div class="bar7"></div>
+        <div class="bar8"></div>
+        <div class="bar9"></div>
+        <div class="bar10"></div>
+        <div class="bar11"></div>
+        <div class="bar12"></div>
+    </div>
+    <!-- LOADER END -->
+
+
+
+</body>
+</html>
